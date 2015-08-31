@@ -74,7 +74,7 @@ abrirExcel <- function(nuevoArchivo, numeroHoja){
         
 }
 
-
+# Ejemplos del uso de la función
 abrirExcel('01_caracteristicas Bitácora', 1)
 abrirExcel('02_tecnologias', 1)
 abrirExcel('03_productores', 1)
@@ -83,13 +83,3 @@ abrirExcel('05_etapa Captura', 1)
 abrirExcel('20_riegos_Descripcion', 1)
 abrirExcel('24_rendimiento', 1)
 
-abrirExcel('08_aplicacion Insumos_descripci', 1)
-abrirExcel('09_aplicacion Insumos _producto', 1)
-abrirExcel('11_labores CulturalesCosecha', 1)
-abrirExcel('13_siembra Resiembra_descripcio', 1)
-abrirExcel('15_analisis Suelo_Descripcion', 1)
-abrirExcel('16_analisis Suelo_Resultado', 1)
-abrirExcel('18_fertilizante Organico', 1)
-abrirExcel('22_afectaciones Cosecha_Factore', 1)
-abrirExcel('30_rotacion Cultivos', 1)
-abrirExcel('31_variedades Adecuadas', 1)
