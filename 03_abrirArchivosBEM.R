@@ -1,6 +1,7 @@
 # Obtener datos diferentes tabas, almacenarlas en un solo data-frame y eliminar los registros NA. Almacenar los datos en una sola hoja CSV. 
 # funcion que permite unir los datos de varias hojas contenidas en diferentes archivos de extension .xlsx
 # Por Luis Vargas (luizvargaz@hotmail.com) junio de 2015
+# Los parametros de la funcion son: 1) el nombre de la hoja, y 2) el numero de la hoja a unir. Ejemplo: abrirExcel('01_caracteristicas Bitácora', 1)
 
 # Leer cada uno de los libros de excel y obtener sus datos
 abrirExcel <- function(nuevoArchivo, numeroHoja){
