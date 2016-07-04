@@ -1,7 +1,6 @@
 import win32com.client 
 import os
 import xlwt
-##################
 while True:
 	extension = '.xlsx'
 	inp = raw_input('Write "q" or press "Enter" to exit.\n Enter a number of Sheet: ')
